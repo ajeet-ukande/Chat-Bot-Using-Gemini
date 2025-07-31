@@ -4,7 +4,6 @@ import os
 from dotenv import load_dotenv
 import google.generativeai as geneai
 
-
 # load the environment variables from .env file
 load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")  # use the PAI Key from .env file
