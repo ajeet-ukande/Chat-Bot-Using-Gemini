@@ -1,7 +1,6 @@
 # import library
 import streamlit as st
 import os
-from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 import google.generativeai as geneai
 
